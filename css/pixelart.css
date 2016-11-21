@@ -1,0 +1,65 @@
+html{
+	margin:auto;
+
+}
+#container{
+	width:400px;
+	height: 400px;
+    position:relative;
+}
+#grilla{
+	width: 400px;
+	height: 400px;
+	background-color: black;
+}
+#color-pick #FF0000{
+	height: 20px;
+	width: 20px;
+	border:2px solid;
+	background-color: #FF0000;
+	border-radius: 50% 0% 50% 50%;
+	float: left;
+	margin: 4px;
+}
+#color-pick #FF00FF{
+	height: 20px;
+	width: 20px;
+	border:2px solid;
+	background-color: #FF00FF;
+	border-radius: 50% 0% 50% 50%;
+	float: left;
+	margin: 4px;
+}
+#color-pick #FFFF00{
+	height: 20px;
+	width: 20px;
+	background-color: #FFFF00;
+	border:2px solid;
+	border-radius: 50% 0% 50% 50%;
+	float: left;
+	margin: 4px;
+}
+#color-pick #baffff{
+	height: 20px;
+	width:20px;
+	background-color: #baffff;
+	border:2px solid;
+	border-radius: 50% 0% 50% 50%;
+	float: left;
+	margin: 4px;
+}
+#actions{
+	float: left;
+	margin-left: 60px;
+}
+#color-pick{
+	float: left;
+	top:400px;
+	margin-top: 11px;
+}
+#color-pick .select{
+	border-color: white !important;
+}
+.no-border{
+    outline: none !important;
+}

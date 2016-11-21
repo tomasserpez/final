@@ -1,0 +1,271 @@
+html{
+	height: 100%;
+    box-sizing: = border-box;
+}
+body{
+	font-family:'Baloo Bhaina', cursive;
+	font-size:14px;
+	line-height: 20px;
+    background-color: #efefef;
+	color:#333;	
+	min-height: 100%;
+}
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.contenedor{
+    max-width: 940px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+}
+div.c-derecha{
+    background-color: white;
+    width:72%;
+    float:right;
+}
+h1.titulo-seccion{
+	font-size: 15px;
+	line-height: 22px;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+.c-derecha .titulo-de-seccion{
+    padding: 30px 10px 2px 40px;
+    border-bottom: 1px solid #efefef;
+    position: relative;
+}
+.linea {
+    position: absolute;
+    left: 30px;
+    top: 62px;
+    width: 60px;
+    margin-top: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background: #fff;
+    margin-right: auto;
+    margin-left: auto;
+}
+div.sobre-mi h1.nombre{
+	font-size: 28px;
+	line-height: 25px;
+	text-transform: uppercase;
+	margin-top:10px;
+	margin-bottom: 0px;
+    text-align: center;
+    margin-left: 15px;
+}
+div.sobre-mi h2.profesion{
+	color: #777;
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 30px;
+	text-transform: uppercase;
+	margin-top: 0px;
+    text-align: center;
+    margin-left: 15px;
+}
+p, div.estudios ul li, div.estudios h6 {
+	font-size: 14px;
+	color:#777;
+	line-height: 22px;
+	font-weight: 300;
+    margin-left: 15px;
+}
+div.sobre-mi ul.lista-datos{
+    width: 50%;
+    float:left;
+    border: 1px solid #efefef;
+    text-align: center;
+    margin-bottom: 20px;
+    list-style: none;
+}
+div.sobre-mi ul.lista-datos li{
+    border-bottom: 1px solid #efefef;
+    background-color: lightgray;
+}
+
+div.sobre-mi li div.titulos {
+    color: #333;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    display: inline-block;
+    width: 35%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #fff;
+    border-right: 1px solid #efefef;
+}
+div.sobre-mi li div.informacion {
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+    display: inline-block;
+    width: 63%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+div.sobre-mi div{
+    display: inline-block;
+}
+div.dibujar-escribir{
+    margin-top:10px;
+    background-image: url('../Images/drawtools.jpg');
+    width: 100%;
+    min-height: 140px;
+    background-position: 0px 0px;
+    background-size: cover;
+}
+div.leer-manga{
+    margin-top:10px;
+    background-image: url('../Images/Jojo.jpg');
+    width: 100%;
+    min-height: 140px;
+    background-position: 0px 0px;
+    background-size: cover;
+}
+div.ver-anime{
+    margin-top:10px;
+    background-image: url('../Images/Danganronpa.jpg');
+    width:100%;
+    min-height: 140px;
+    background-position: 0px 0px;
+    background-size: cover;
+}
+div.hobbies div.item-hobbie{
+    width:31%;
+    margin-left: 1%;
+    margin-right: 1%;
+    float:left;
+    
+}
+div.item-hobbie div{
+    text-align: center;
+    color:darkgray;
+    font-style: italic;
+}
+div.c-izquierda{
+    width:26%;
+    float:left;
+}
+nav ul li.item a{
+	text-decoration: none;
+}
+ul li.item a.hipervinculo p.texto-hipervinculo{
+ 	font-size: 12px;
+ 	line-height: 44px;
+ 	text-transform: uppercase;
+ 	color:#85878b;
+ 	margin:0px 20px 0px 0px;
+ 	text-align: right;
+}
+nav ul li.item{
+	padding:0px;
+	border-bottom: 1px solid #26292e;
+	height: 45px;
+}
+nav ul{
+	list-style: none;
+	padding-left:0;
+
+}
+.w-clearfix:before, .w-clearfix:after {
+    content: " ";
+    display: table;
+}
+.w-clearfix:after {
+    clear: both;
+}
+nav ul li.item a.hipervinculo{
+    background-color: darkgray;
+    display: inline-block;
+    width:100%;
+}
+nav ul li.item a.hipervinculo:hover{
+    background-color: gold;
+}
+nav ul li.item a.hipervinculo p.texto-hipervinculo:hover{
+    color:white;
+}
+nav ul li.item a.hipervinculo .icono{
+    width: 24px;
+    height: 24px;
+    float: left;
+    background-position: 0px 0px;
+    background-size: cover;
+    margin: 10px 20px;
+}
+nav ul li.item a.hipervinculo .sobre-mi{
+    background-image: url('../icons/sobre-mi.jpg');
+}
+nav ul li.item a.hipervinculo .estudios{
+    background-image: url('../icons/educacion.jpg');
+}
+nav ul li.item a.hipervinculo .experiencia-laboral{
+    background-image: url('../icons/experiencia-laboral.jpg');
+}
+nav ul li.item a.hipervinculo .hobbie{
+    background-image: url('../icons/hobbie.jpg');
+}
+nav ul li.item a.hipervinculo:hover .sobre-mi{
+    background-image: url('../icons/sobre-mi-hover.jpg');
+}
+nav ul li.item a.hipervinculo:hover .estudios{
+    background-image: url('../icons/educacion-hover.jpg');
+}
+nav ul li.item a.hipervinculo:hover .experiencia-laboral{
+    background-image: url('../icons/experiencia-laboral-hover.jpg');
+}
+nav ul li.item a.hipervinculo:hover .hobbie{
+    background-image: url('../icons/hobbie-hover.jpg');
+}
+div img.mi-foto{
+    width: 100%;
+}
+nav ul, ul.lista-datos{
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+.redes {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 26%;
+    background-color: #efefef;
+    text-align: center;
+}
+.red {
+    width: 50px;
+    height: 50px;
+    margin-right: 4px;
+    margin-left: 4px;
+    float: left;
+    display: inline-block;
+}
+.facebook{
+    background-image: url('../icons/redes-facebook.png');
+    background-position: 0px 0px;
+    background-size: cover;
+}
+.twitter{
+    background-image: url('../icons/redes-twitter.png');
+    background-position: 0px 0px;
+    background-size: cover;
+}
+.facebook:hover{
+    background-image: url('../icons/redes-facebook-hover.png');
+}
+.twitter:hover{
+    background-image: url('../icons/redes-twitter-hover.png');
+}
+#portfolio .portfolio .rompecabeza{
+    margin:40px;
+}
+#portfolio .portfolio .pixel{
+    margin: 60px 40px 40px 140px;
+}
